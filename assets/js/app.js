@@ -16,7 +16,7 @@ $("#check").click(function (){
   if (boucler == true) {
     for (var i = 0; i < tableau.length; i++) {
       switch (tableau[i]) {
-        case "kaonb-ax":
+        case "kaonb-":
           console.log("Affiche "+tableau[i]);
           $("#check").append( "<h5>Affiche "+tableau[i]+"</h5>" );
           break;
